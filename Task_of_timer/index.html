@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task_1_timer</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <!--        top      -->
+        <div class="conteiner-top">
+            <div class="content-current_date-month-year"></div>
+            <div class="content-current_hour-minute-seconde"></div>
+        </div>
+
+        <!--        center       -->
+        <div class="conteiner-center">
+            <div class="content__stopwatch">
+                <div class="stopwatch__timer"></div>
+
+                <button class="stopwatch__button-start">START</button>
+                <button class="stopwatch__button-loop">LOOP</button>
+                <button class="stopwatch__button-stop">STOP</button>
+                <button class="stopwatch__button-reset">RESET</button>
+            </div>
+
+            <div class="content__text"></div>
+        </div>
+
+        <!--        bottom       -->
+        <div class="conteiner-bottom">
+            <div class="content-set-time">
+                <div>
+                    <div class="set-time__number"></div>
+                    <div class="set-time__subtitle">MINUTES</div>
+                </div>
+
+                <div>
+                    <button class="set-time__button-plus">+</button>
+                    <button class="set-time__button-minus">-</button>
+                </div>
+            </div>
+
+            <div class="content-back-time">
+                <div class="back-time__number"></div>
+
+                <button class="back-time__button-start">START</button>
+                <button class="back-time__button-stop">STOP</button>
+                <button class="back-time__button-reset">RESET</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

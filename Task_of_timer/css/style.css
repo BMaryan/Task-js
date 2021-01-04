@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'LiquidCrystal-BoldItalic';
+    src: url('../font/LiquidCrystal-BoldItalic.otf');
+}
+
+
+/* active */
+
+@font-face {
+    font-family: 'LiquidCrystal-ExtraBold';
+    src: url('../font/LiquidCrystal-ExBold.otf');
+}
+
+body {
+    background: rgb(0, 0, 32);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    background: rgb(1, 1, 20);
+}
+
+div {
+    font-family: 'LiquidCrystal-ExtraBold';
+}
+
+
+/* conteiner-top */
+
+.conteiner-top,
+.conteiner-center,
+.conteiner-bottom {
+    height: 200px;
+    color: rgb(38, 162, 211);
+    border: 1px solid rgb(97, 94, 94);
+}
+
+.conteiner-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-current_date-month-year {
+    font-size: 25px;
+}
+
+.content-current_hour-minute-seconde {
+    font-size: 90px;
+}
+
+
+/* conteiner-center */
+
+.conteiner-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 17px 0;
+}
+
+.content__stopwatch {
+    text-align: center;
+}
+
+.stopwatch__timer {
+    height: 80%;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.stopwatch__button-start,
+.stopwatch__button-loop,
+.stopwatch__button-stop,
+.stopwatch__button-reset {
+    color: rgb(38, 162, 211);
+    background: rgb(1, 1, 20);
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 15px;
+}
+
+.content__text {
+    height: 80%;
+    width: 25%;
+    border: 1px solid rgb(97, 94, 94);
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+
+/* conteiner-bottom */
+
+.conteiner-bottom {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-set-time {}
+
+.set-time__number {
+    font-size: 90px;
+}
+
+.set-time__subtitle {
+    font-size: 15px;
+}
+
+.set-time__button-plus {
+    margin: 7px 15px 0 0;
+}
+
+.set-time__button-plus,
+.set-time__button-minus {
+    color: rgb(38, 162, 211);
+    background: rgb(1, 1, 20);
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.content-back-time {}
+
+.back-time__number {
+    font-size: 90px;
+}
+
+.back-time__button-start,
+.back-time__button-stop,
+.back-time__button-reset {
+    color: rgb(38, 162, 211);
+    background: rgb(1, 1, 20);
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 15px;
+    margin-top: 20px;
+}
